@@ -2,9 +2,9 @@
 share: true
 ---
 
-# Note3
+# note3
 
-Link to [index](./index)
+Link to [Index Note](./Index%20Note)
 
 ### subtitle
 block with id ^id
