@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://change_me.io/notes/Index%20Note/</loc>
+         <lastmod>2022-09-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://change_me.io/notes/note3/</loc>
          <lastmod>2022-09-23</lastmod>
          <changefreq>daily</changefreq>
