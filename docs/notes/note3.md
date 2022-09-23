@@ -2,12 +2,12 @@
 share: true
 ---
 
-# heading 1
-Link to [private](private)
+# Note3
+
 Link to [index](./index)
 
-## subtitle
+### subtitle
 block with id ^id
 
-# heading 2
+## heading 2
 hello
