@@ -4,7 +4,7 @@ share: true
 
 # note3
 
-Link to [[./Index Note|Index Note]]
+Link to [[./testnote1|testnote1]]
 
 ### subtitle
 block with id ^id
