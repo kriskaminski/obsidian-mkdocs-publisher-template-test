@@ -1,5 +1,6 @@
 ---
 share: true
+note: true
 ---
 
 # note3
