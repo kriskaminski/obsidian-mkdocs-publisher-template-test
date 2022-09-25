@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://change_me.io/notes/Index%20Note/</loc>
+         <loc>https://kriskaminski.github.io/obsidian-mkdocs-publisher-template-test/notes/note3/notes/Index%20Note/</loc>
          <lastmod>2022-09-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://change_me.io/notes/note2/</loc>
+         <loc>https://kriskaminski.github.io/obsidian-mkdocs-publisher-template-test/notes/note3/notes/note2/</loc>
          <lastmod>2022-09-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://change_me.io/notes/note3/</loc>
+         <loc>https://kriskaminski.github.io/obsidian-mkdocs-publisher-template-test/notes/note3/notes/note3/</loc>
          <lastmod>2022-09-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://change_me.io/notes/test3/</loc>
+         <loc>https://kriskaminski.github.io/obsidian-mkdocs-publisher-template-test/notes/note3/notes/test3/</loc>
          <lastmod>2022-09-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
