@@ -120,7 +120,7 @@
 <div class="md-tabs__inner md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../">
+<a class="md-tabs__link md-tabs__link--active" href="./">
         Notes
       </a>
 </li>
@@ -144,12 +144,10 @@
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active md-nav__item--nested">
 <input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
-<div class="md-nav__link md-nav__link--index">
-<a href="../">Notes</a>
-<label for="__nav_1">
-<span class="md-nav__icon md-icon"></span>
+<label class="md-nav__link" for="__nav_1">
+          Notes
+          <span class="md-nav__icon md-icon"></span>
 </label>
-</div>
 <nav aria-label="Notes" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_1">
 <span class="md-nav__icon md-icon"></span>
@@ -180,8 +178,18 @@
 </nav>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="../note2/">
+        note2h1
+      </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="../note3/">
         note3
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../test3/">
+        test3
       </a>
 </li>
 </ul>
@@ -215,11 +223,11 @@
 <article class="md-content__inner md-typeset">
 <h1>Index Note</h1>
 <h2 id="index-note">Index Note<a class="headerlink" href="#index-note" title="Permanent link">¶</a></h2>
-<p>A link to <a href="../note3/">note3</a></p>
-<p><img alt="note3 &gt; ^id" src="../note3/#%5Eid"/></p>
-<p><img alt="note3 &gt; Note3" src="../note3/#Note3"/></p>
-<p><img alt="note3 &gt; subtitle" src="../note3/#subtitle"/></p>
-<p><img alt="note3 &gt; heading 2" src="../note3/#heading%202"/></p>
+<p>A link to <a href="../note3/" title="note3">note3</a></p>
+<p><img alt="note3" src="../note3/#^id" title="note3"/></p>
+<p><img alt="note3 &gt; Note3" src="../note3/#note3" title="note3 &gt; Note3"/></p>
+<p><img alt="note3 &gt; subtitle" src="../note3/#subtitle" title="note3 &gt; subtitle"/></p>
+<p><img alt="note3 &gt; heading 2" src="../note3/#heading-2" title="note3 &gt; heading 2"/></p>
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
 <hr/>
@@ -229,7 +237,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
         
         
             Last update:
-            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 23, 2022</span>
+            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 25, 2022</span>
 <!-- mkdocs-git-revision-date-plugin -->
 </small>
 </div>
@@ -309,26 +317,13 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Index Note" class="md-footer__link md-footer__link--prev" href="../" rel="prev">
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
-</div>
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Previous
-              </span>
-              Index Note
-            </div>
-</div>
-</a>
-<a aria-label="Next: note3" class="md-footer__link md-footer__link--next" href="../note3/" rel="next">
+<a aria-label="Next: note2h1" class="md-footer__link md-footer__link--next" href="../note2/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              note3
+              note2h1
             </div>
 </div>
 <div class="md-footer__button md-icon">
